@@ -3,3 +3,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: olive;
 }
+h1 {
+    color:black;
+}
+img {
+    height: auto;
+    width: 20px;
+}
