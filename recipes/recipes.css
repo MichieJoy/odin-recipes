@@ -1,0 +1,38 @@
+* {
+    background-color:peru;
+
+}
+h1{
+    color: maroon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-weight: bold;
+}
+h2 {
+    color: maroon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+img{
+    height: auto;
+    width: 300px;
+    float:left;
+    margin: 20px;
+}
+p{
+    text-align: center;
+    color: brown;
+}
+ul {
+    color: brown;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+ol {
+    color: brown;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
