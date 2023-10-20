@@ -1,7 +1,12 @@
  *{
-    color: maroon;
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: olive;
+   /* background-color: olive;*/
+   background-image: url("images/homepage-foods.jpg");
+   background-size: cover;
+
+   
+   
 }
 body{
     text-align: center;
@@ -14,13 +19,13 @@ body{
     border-color: black;
     font-size: 32px;
 }
+.recipes{
+    background-color: white;
+}
 h1 {
     color:black;
+    background-color: white;
 }
 ul{
     list-style-type: none;
-}
-img {
-    height: auto;
-    width: 20px;
 }
