@@ -3,8 +3,22 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: olive;
 }
+body{
+    text-align: center;
+    display: block;
+    max-width: 500px;
+    margin: 150px auto;
+    padding: 8px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: black;
+    font-size: 32px;
+}
 h1 {
     color:black;
+}
+ul{
+    list-style-type: none;
 }
 img {
     height: auto;
