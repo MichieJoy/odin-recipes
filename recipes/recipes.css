@@ -1,11 +1,25 @@
-* {
+html{
+    box-sizing: border-box;
+}
+
+*, * ::before, ::after{
+    box-sizing: inherit;
     background-color:peru;
 
+}
+body{
+    margin: 40px 100px;
+    columns:2;
+}
+div.intro{
+    border: 10px;
+   /* border-style:solid;
+    border-color: black;*/
 }
 h1{
     color: maroon;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
 }
 h2 {
@@ -14,11 +28,16 @@ h2 {
     text-align: center;
     font-weight: bold;
 }
+div.chapati_image{
+    /*text-align: center;*/
+    display: grid;
+    place-items: center;
+}
 img{
     height: auto;
-    width: 300px;
-    float:left;
+    width: 400px;
     margin: 20px;
+    
 }
 p{
     text-align: center;
@@ -26,13 +45,14 @@ p{
 }
 ul {
     color: brown;
-    text-align: justify;
+    text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: none;
 
 }
 ol {
     color: brown;
-    text-align: justify;
+    text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+list-style-type: none;
 }
